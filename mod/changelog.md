@@ -1,7 +1,11 @@
 # Lịch sử cập nhật bản dịch
 
-## v0.2 (2025-01-01)
-Bản dịch đầu tiên, hiện đã xong một số phần cơ bản của trò chơi. Coi là bản v0.2 vì lí do kỹ thuật.
+## v0.3 (ngày 2 tháng 1 năm 2025)
+Về cơ bản là v0.2 nhưng đã cập nhật với phiên bản trò chơi mới nhất (Demo v6.1).
+
+## v0.2 (ngày 1 tháng 1 năm 2025)
+
+Bản dịch đầu tiên, hiện đã xong một số phần cơ bản của trò chơi (Demo v6). Coi là bản v0.2 vì lí do kỹ thuật.
 
 ### Đã dịch
 
