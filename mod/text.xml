@@ -1,68 +1,89 @@
-<!--autoNewLine="true" для использования символа | в качестве обозначения новой строки-->
-<!--autoNewLine="true" newLineChar="X" для использования любого символа X в качестве обозначения новой строки-->
-<!--newLineParagraph="true" для использования символа @ в качестве табуляции-->
-<Root>
-    <system>
-        <cancel>Decline</cancel>
-        <back>Previous</back>
-        <OK>OK</OK>
-        <save_resolution_question>Save resolution?</save_resolution_question>
-        <changes_will_be_made_after_restart>Changes will be applied after restart</changes_will_be_made_after_restart>
-        <steam>Steam</steam>
-        <steam_error>Steam synchronization failed. All Steam-related features, including cloud saves, achievements, and leaderboards, are disabled. Try launching the game through Steam again, and if the error persists, contact the developer.</steam_error>
-        <save_error>Save error</save_error>
-        <save_error_long>An error occurred while managing saves. Contact the developer</save_error_long>
-        <save_already_exists>A save with the same name already exists</save_already_exists>
-        <save_name_not_correct>The save name contains invalid characters. Only numbers and Latin letters are allowed</save_name_not_correct>
-        <error_while_loading_mods_list autoNewLine="true">An error occurred while loading the list of available mods. Send a message to the developer if the issue persists: |{0}</error_while_loading_mods_list>
-        <error_while_loading_mod autoNewLine="true">An error occurred while loading the mod. Send a message to the developer if the issue persists: |{0}</error_while_loading_mod>
-    </system>
-    <ui>
-        <new_game>New game</new_game>
-        <load>Load game</load>
-        <tutorial>Tutorial</tutorial>
-        <settings>Settings</settings>
-        <mod_creation>Create a new mod</mod_creation>
-        <credits>Credits</credits>
-        <exit>Exit</exit>
-        <the_game>Game</the_game>
-        <screen>Screen</screen>
-        <sound>Sound</sound>
-        <charcreat>Create a character</charcreat>
-        <mod_selection>Mods</mod_selection>
-        <apply>Apply</apply>
-        <cancel>Cancel</cancel>
-        <prev>Previous</prev>
-        <next>Next</next>
-        <charcreat>Character creation</charcreat>
-        <name>Name</name>
-        <surname>Surname</surname>
-        <rating>Friends leaderboard</rating>
-        <nick>Nickname</nick>
-        <pointsrec>Points</pointsrec>
-        <place>Place</place>
-        <update>Update</update>
-        <delete_all>Delete all</delete_all>
-        <delete_confirmation>Are you sure you want to delete your save {0}?</delete_confirmation>
-        <delete_all_confirmation>Are you sure you want to delete all saves??</delete_all_confirmation>
-        <rewrite>Overwrite</rewrite>
-        <rewrite_confirmation>Are you sure you want to overwrite your save {0}?</rewrite_confirmation>
-        <date>In-game date</date>
-        <real_date>Save creation date</real_date>
-        <ruler_name>Ruler name</ruler_name>
-        <save>Save</save>
-        <rename>Rename</rename>
-        <enter_save_name>Enter a save name</enter_save_name>
-        <enter_save_new_name>Enter a new save name {0}</enter_save_new_name>
-        <difficulty>Difficulty</difficulty>
-        <save_and_load>Save/Load</save_and_load>
-        <ask_to_exit_without_save>Are you sure you want to quit without saving?</ask_to_exit_without_save>
-        <wiki_link>Encyclopedia</wiki_link>
-        <down>Down</down>
-        <music>Music</music>
-        <player_political_cord_position>Player's position</player_political_cord_position>
-    </ui>
+<!--
+    Đây là bản dịch tiếng Việt cho trò chơi Crisis in the Kremlin: The Cold War 
+    (Khủng hoảng ở Điện Kremlin: Chiến tranh Lạnh) dưới dạng mod.
 
+    Thực hiện bởi: XanclockTranslations.
+
+    Trang chủ: github.com/XanclockTranslations/citk2-vn
+    Phiên bản mod/Phiên bản trò chơi: 0.1/Demo v6
+-->
+
+<!--
+    Một vài ghi chú của các nhà phát triển về một số thuộc tính của thẻ XML:
+
+    - autoNewLine="true"                 : Để sử dụng ký tự | làm dấu xuống dòng (для использования символа | в качестве обозначения новой строки).
+    - autoNewLine="true" newLineChar="X" : Để sử dụng ký tự X bất kỳ làm dấu xuống dòng (для использования любого символа X в качестве обозначения новой строки).
+    - newLineParagraph="true"            : Để sử dụng ký tự @ làm dấu tab (для использования символа @ в качестве табуляции).
+-->
+
+<Root>   
+    <!--
+        Phần <system> chứa các nội dung về trò chơi nói chung, như quản lý bản lưu, kết nối với Steam...
+    -->
+    <system>
+        <cancel>Hủy</cancel>
+        <back>Trước</back>
+        <OK>OK</OK>
+        <save_resolution_question>Lưu độ phân giải?</save_resolution_question>
+        <changes_will_be_made_after_restart>Thay đổi sẽ được áp dụng sau khi khởi động lại</changes_will_be_made_after_restart>
+        <steam>Steam</steam>
+        <steam_error>Đồng bộ hóa Steam thất bại. Mọi tính năng liên quan đến Steam, bao gồm lưu trữ trên đám mây, thành tựu và bảng xếp hạng, đều bị vô hiệu hóa. Hãy thử khởi chạy lại trò chơi thông qua Steam, và nếu lỗi vẫn xảy ra, hãy liên hệ với nhà phát triển.</steam_error>
+        <save_error>Lỗi khi lưu trò chơi</save_error>
+        <save_error_long>Đã xảy ra lỗi khi quản lý bản lưu của trò chơi. Hãy liên hệ với nhà phát triển.</save_error_long>
+        <save_already_exists>Bản lưu với tên tương tự đã tồn tại</save_already_exists>
+        <save_name_not_correct>Tên bản lưu chứa ký tự không hợp lệ. Chỉ cho phép số và chữ cái Latin</save_name_not_correct>
+        <error_while_loading_mods_list autoNewLine="true">Đã xảy ra lỗi khi load danh sách mod có sẵn. Gửi tin nhắn cho nhà phát triển nếu vấn đề vẫn xảy ra: |{0}</error_while_loading_mods_list>
+        <error_while_loading_mod autoNewLine="true">Đã xảy ra lỗi khi load mod. Gửi tin nhắn cho nhà phát triển nếu vấn đề vẫn xảy ra: |{0}</error_while_loading_mod>
+    </system>
+
+    <!--
+        Phần <ui> chứa các nội dung về giao diện người dùng, như các nút, tiêu đề...
+    -->
+    <ui>
+        <new_game>Bắt đầu</new_game>
+        <load>Load bản lưu</load>
+        <tutorial>Hướng dẫn</tutorial>
+        <settings>Cài đặt</settings>
+        <mod_creation>Tạo mod</mod_creation>
+        <credits>Công trạng</credits>
+        <exit>Thoát</exit>
+        <the_game>Trò chơi</the_game>
+        <screen>Màn hình</screen>
+        <sound>Âm thanh</sound>
+        <charcreat>Tạo nhân vật mới</charcreat>
+        <mod_selection>Danh sách mod</mod_selection>
+        <apply>Áp dụng</apply>
+        <cancel>Hủy</cancel>
+        <prev>Trước</prev>
+        <next>Tiếp</next>
+        <charcreat>Tạo nhân vật mới</charcreat>
+        <name>Tên</name>
+        <surname>Họ</surname>
+        <rating>BXH bạn bè</rating>
+        <nick>Biệt danh</nick>
+        <pointsrec>Điểm</pointsrec>
+        <place>Vị trí</place>
+        <update>Cập nhật</update>
+        <delete_all>Xóa tất cả</delete_all>
+        <delete_confirmation>Bạn có chắc chắn muốn xóa bản lưu {0} không?</delete_confirmation>
+        <delete_all_confirmation>Bạn có chắc chắn muốn xóa tất cả các bản lưu không?</delete_all_confirmation>
+        <rewrite>Ghi đè</rewrite>
+        <rewrite_confirmation>Bạn có chắc chắn muốn ghi đè lên bản lưu {0} không?</rewrite_confirmation>
+        <date>Ngày trong game</date>
+        <real_date>Ngày tạo bản lưu</real_date>
+        <ruler_name>Tên nhà lãnh đạo</ruler_name>
+        <save>Lưu</save>
+        <rename>Đổi tên</rename>
+        <enter_save_name>Nhập tên bản lưu</enter_save_name>
+        <enter_save_new_name>Nhập tên bản lưu mới {0}</enter_save_new_name>
+        <difficulty>Độ khó</difficulty>
+        <save_and_load>Lưu/Load</save_and_load>
+        <ask_to_exit_without_save>Bạn có chắc chắn muốn thoát mà không lưu không?</ask_to_exit_without_save>
+        <wiki_link>Bách khoa toàn thư</wiki_link>
+        <down>Xuống</down>
+        <music>Nhạc</music>
+        <player_political_cord_position>Vị trí của người chơi</player_political_cord_position>
+    </ui>
 
     <tutorial>
         <close>Close</close>
@@ -445,26 +466,35 @@
         <war_IranIraqWar_side2_subside2>Islamic Authoritarians</war_IranIraqWar_side2_subside2>
     </war_sides_names>
 
+    <!--
+        Phần <wars> chứa tên các cuộc chiến trong trò chơi.
+    -->
     <wars>
-        <warAfganWar>Afghan Civil War</warAfganWar>
-        <warNicaraguanWar>Civil War in Nicaragua</warNicaraguanWar>
-        <warIranIraqWar>Iraq-Iranian War</warIranIraqWar>
-        <warAngolanWar>Angolan Civil War</warAngolanWar>
-        <warKoreanWar>Korean Civil War</warKoreanWar>
+        <warAfganWar>Nội chiến Afghanistan</warAfganWar>
+        <warNicaraguanWar>Nội chiến ở Nicaragua</warNicaraguanWar>
+        <warIranIraqWar>Chiến tranh Iraq-Iran</warIranIraqWar>
+        <warAngolanWar>Nội chiến Angola</warAngolanWar>
+        <warKoreanWar>Nội chiến Triều Tiên</warKoreanWar>
 
     </wars>
-
+    
+    <!--
+        Phần <dlcs> chứa tên các DLCs (bản mở rộng) của trò chơi.
+    -->
     <dlcs>
-        <dlc1>Yugoslavia</dlc1>
+        <dlc1>Nam Tư</dlc1>
     </dlcs>
 
+    <!--
+        Phần <science_type> chứa tên các loại nghiên cứu trong trò chơi.
+    -->
     <science_type>
-        <type0>Cybernetics and computers</type0>
-        <type1>Space technologies</type1>
-        <type2>Agricultural technologies</type2>
-        <type3>Military technologies</type3>
-        <type4>Atomic technologies</type4>
-        <type5>Intel on American scientific achievements</type5>
+        <type0>Điều khiển học và máy tính</type0>
+        <type1>Công nghệ vũ trụ</type1>
+        <type2>Công nghệ nông nghiệp</type2>
+        <type3>Công nghệ quân sự</type3>
+        <type4>Công nghệ nguyên tử</type4>
+        <type5>Tin tình báo về những thành tựu KH của Hoa Kỳ</type5>
     </science_type>
 
     <custom_images>
@@ -703,24 +733,29 @@
         <no_conditions>No conditions</no_conditions>
     </event_window>
 
+    <!--
+        Phần <government_type> chứa các loại chính phủ của các quốc gia trong trò chơi.
+        
+        Vì sự hạn chế trong tiếng Việt, một số từ chỉ được dịch một cách gần đúng.
+    -->
     <government_type>
-        <ConstructingCommunism>Building Communism</ConstructingCommunism>
-        <ConservativeSocialism>Conservative Socialism</ConservativeSocialism>
-        <SocialistReformism>Socialist Reformism</SocialistReformism>
-        <SocialismNationalSpecific>Socialism with National Specifics</SocialismNationalSpecific>
-        <LeftNationalism>Left Nationalism</LeftNationalism>
-        <LeftPragmatism>Left Pragmatism</LeftPragmatism>
-        <DemocraticSocialism>Democratic Socialism</DemocraticSocialism>
-        <SocialDemocracy>Social Democracy</SocialDemocracy>
-        <Centrism>Centrism</Centrism>
-        <LiberalProgressive>Liberal Progressivism</LiberalProgressive>
-        <LiberalConservative>Liberal Conservatism</LiberalConservative>
-        <PopulistConservative>Paternalistic conservatism</PopulistConservative>
-        <RightPopulism>Right Populism</RightPopulism>
-        <MarketAuthoritarian>Market Authoritarianism</MarketAuthoritarian>
-        <ReactonaryAuthoritarian>Political Fundamentalism</ReactonaryAuthoritarian>
-        <ClassicalLiberalism>Classical Liberalism</ClassicalLiberalism>
-        <LiberalCorporativism>Liberal Corporatocracy</LiberalCorporativism>
+        <ConstructingCommunism>Xây dựng chủ nghĩa cộng sản</ConstructingCommunism>
+        <ConservativeSocialism>Chủ nghĩa xã hội truyền thống</ConservativeSocialism>
+        <SocialistReformism>Chủ nghĩa xã hội cải tổ</SocialistReformism>
+        <SocialismNationalSpecific>Chủ nghĩa xã hội đặc sắc quốc gia</SocialismNationalSpecific>
+        <LeftNationalism>Chủ nghĩa dân tộc cánh tả</LeftNationalism>
+        <LeftPragmatism>Chủ nghĩa thực dụng cánh tả</LeftPragmatism>
+        <DemocraticSocialism>Chủ nghĩa xã hội dân chủ</DemocraticSocialism>
+        <SocialDemocracy>Dân chủ xã hội</SocialDemocracy>
+        <Centrism>Chủ nghĩa trung dung</Centrism>
+        <LiberalProgressive>Chủ nghĩa tự do cấp tiến</LiberalProgressive>
+        <LiberalConservative>Chủ nghĩa tự do bảo thủ</LiberalConservative>
+        <PopulistConservative>Chủ nghĩa dân túy bảo thủ</PopulistConservative>
+        <RightPopulism>Chủ nghĩa dân túy cánh hữu</RightPopulism>
+        <MarketAuthoritarian>Chủ nghĩa chuyên chế thị trường</MarketAuthoritarian>
+        <ReactonaryAuthoritarian>Chủ nghĩa chuyên chế phản động</ReactonaryAuthoritarian>
+        <ClassicalLiberalism>Chủ nghĩa tự do cổ điển</ClassicalLiberalism>
+        <LiberalCorporativism>Chủ nghĩa tự do tập đoàn trị</LiberalCorporativism>
     </government_type>
 
     <char_wiki_links>
@@ -3079,31 +3114,34 @@
         <relations>Relation</relations>
     </encyclopedia_subsections>
 
+    <!--
+        Phần <notifications_names> chứa tên các thông báo trong trò chơi. 
+    -->
     <notifications_names>
-        <notification0>Threat of financial crisis</notification0>
-        <notification1>Currently known conspiracies are happening</notification1>
-        <notification2>Worsening luxury goods shortage</notification2>
-        <notification3>Impending environmental crisis</notification3>
-        <notification4>Decline in education quality</notification4>
-        <notification5>Worsening shortage of consumer goods</notification5>
-        <notification6>A conspiracy is brewing among the generals</notification6>
-        <notification7>Growing opposition sentiment among the intelligentsia</notification7>
-        <notification8>A conspiracy is brewing within the secret services</notification8>
-        <notification9>Currently known conspiracies against us are happening</notification9>
-        <notification10>Radicalization of society</notification10>
-        <notification11>Growing separatism in the state subjects {0}</notification11>
-        <notification12>Dissatisfaction with our policy is brewing among military circles</notification12>
-        <notification13>Worsening political situation in allied countries</notification13>
-        <notification14>There is a vacant position</notification14>
-        <notification15>There are unfinished research projects</notification15>
-        <notification16>Decline in healthcare quality</notification16>
-        <notification17>Worsening housing issue</notification17>
-        <notification18>Recession in certain sectors of the economy</notification18>
-        <notification19>Rising inflation</notification19>
-        <notification20>Operations are carried out in third world countries</notification20>
-        <notification21>Operations results in third world countries</notification21>
-        <notification22>Our sphere of influence in third world countries is under threat!</notification22>
-        <notification23>The investment in the «state mechanism» is too low</notification23>
+        <notification0>Nguy cơ xảy ra khủng hoảng tài chính</notification0>
+        <notification1>Những âm mưu mà chúng ta biết hiện đang diễn ra</notification1>
+        <notification2>Khủng hoảng thiếu hụt hàng xa xỉ ngày càng trầm trọng</notification2>
+        <notification3>Khủng hoảng môi trường đang cận kề</notification3>
+        <notification4>Chất lượng giáo dục suy giảm</notification4>
+        <notification5>Khủng hoảng thiếu hụt hàng tiêu dùng ngày càng trầm trọng</notification5>
+        <notification6>Âm mưu đang nhen nhóm giữa các tướng lĩnh</notification6>
+        <notification7>Giới trí thức ngày càng có tinh thần chống đối</notification7>
+        <notification8>Âm mưu đang nhen nhóm trong các cơ quan tình báo</notification8>
+        <notification9>Những âm mưu chống lại chúng ta hiện đang diễn ra</notification9>
+        <notification10>Cộng đồng xã hội đang bị cực đoan hóa</notification10>
+        <notification11>Các nước chư hầu {0} đang gia tăng tình hình ly khai</notification11>
+        <notification12>Giới quân sự đang gia tăng sự bất mãn với các chính sách</notification12>
+        <notification13>Các quốc gia đồng minh đang có tình hình chính trị ngày càng xấu đi</notification13>
+        <notification14>Hiện có vị trí còn trống</notification14>
+        <notification15>Có những dự án nghiên cứu chưa hoàn thành</notification15>
+        <notification16>Chất lượng chăm sóc sức khỏe suy giảm</notification16>
+        <notification17>Vấn đề nhà ở ngày càng nghiêm trọng</notification17>
+        <notification18>Sự suy thoái trong một số ngành kinh tế</notification18>
+        <notification19>Lạm phát đang gia tăng</notification19>
+        <notification20>Hoạt động được thực hiện ở các quốc gia thế giới thứ ba</notification20>
+        <notification21>Kết quả hoạt động ở các quốc gia thế giới thứ ba</notification21>
+        <notification22>Ảnh hưởng của chúng ta ở các quốc gia thế giới thứ ba đang bị đe dọa!</notification22>
+        <notification23>Đầu tư vào «cơ chế nhà nước» là quá thấp</notification23>
     </notifications_names>
 
     <notifications_descs>
@@ -4239,53 +4277,58 @@
 
 
     </doctrine_variant_descs>
-
+    <!--
+        Phần <expense_group> chứa các nhóm chi phí trong nền kinh tế của quốc gia. 
+    -->
     <expense_group>
-        <army>Armed Forces</army>
-        <administration>Administration and management</administration>
-        <import>Imports</import>
-        <influence>Influence</influence>
-        <investment>Economic stimulation</investment>
-        <science>Science</science>
-        <other>Other spending</other>
-        <fixed>Fixed</fixed>
+        <army>Lực lượng vũ trang</army>
+        <administration>Quản lý và điều hành</administration>
+        <import>Nhập khẩu</import>
+        <influence>Ảnh hưởng</influence>
+        <investment>Kích thích kinh tế</investment>
+        <science>Khoa học</science>
+        <other>Chi tiêu khác</other>
+        <fixed>Cố định</fixed>
     </expense_group>
 
+    <!--
+        Phần <expense_type> chứa các loại chi phí cụ thể trong nền kinh tế của quốc gia.
+    -->
     <expense_type>
-        <expense_type0>Armour and equipment</expense_type0>
-        <expense_type1>Supplies for soldiers</expense_type1>
-        <expense_type2>Kultprosvet</expense_type2>
-        <expense_type3>Environmental support</expense_type3>
-        <expense_type4>Diplomatic missions</expense_type4>
-        <expense_type5>Envelopes for generals</expense_type5>
-        <expense_type6>Envelopes for Special Services</expense_type6>
-        <expense_type7>Envelopes for intelligentsia</expense_type7>
-        <expense_type8>Envelopes for the civil servants</expense_type8>
-        <expense_type9>State propaganda</expense_type9>
-        <expense_type10>Military technology</expense_type10>
-        <expense_type11>Nuclear technology</expense_type11>
-        <expense_type12>Digital technologies</expense_type12>
-        <expense_type13>Civilian technologies</expense_type13>
-        <expense_type14>Medical system</expense_type14>
-        <expense_type15>Education system</expense_type15>
-        <expense_type16>State mechanism</expense_type16>
-        <expense_type17>Salaries of civil servants</expense_type17>
-        <expense_type18>Social spending</expense_type18>
-        <expense_type19>Law and order</expense_type19>
-        <expense_type20>Special Services</expense_type20>
-        <expense_type21>Agriculture</expense_type21>
-        <expense_type22>Infrastructure</expense_type22>
-        <expense_type23>Light Industry</expense_type23>
-        <expense_type24>Heavy industry</expense_type24>
-        <expense_type25>Military–industrial complex</expense_type25>
-        <expense_type26>Services sector</expense_type26>
-        <expense_type27>Imports of agricultural products</expense_type27>
-        <expense_type28>Import of luxury goods</expense_type28>
-        <expense_type29>Import of medicines</expense_type29>
-        <expense_type30>Import of art objects</expense_type30>
-        <expense_type31>Import of industrial equipment</expense_type31>
-        <expense_type32>Debt Maintenance</expense_type32>
-        <expense_type33>Diplomatic actions</expense_type33>
+        <expense_type0>Vũ khí và trang thiết bị</expense_type0>
+        <expense_type1>Tiếp tế cho quân đội</expense_type1>
+        <expense_type2>Bộ văn hóa và giáo dục (Kultprosvet)</expense_type2>
+        <expense_type3>Hỗ trợ môi trường</expense_type3>
+        <expense_type4>Nhiệm vụ ngoại giao</expense_type4>
+        <expense_type5>Phong bì cho các tướng lĩnh</expense_type5>
+        <expense_type6>Phong bì cho cơ quan tình báo</expense_type6>
+        <expense_type7>Phong bì cho giới trí thức</expense_type7>
+        <expense_type8>Phong bì cho công chức</expense_type8>
+        <expense_type9>Tuyên truyền nhà nước</expense_type9>
+        <expense_type10>Công nghệ quân sự</expense_type10>
+        <expense_type11>Công nghệ hạt nhân</expense_type11>
+        <expense_type12>Công nghệ số</expense_type12>
+        <expense_type13>Công nghệ dân sự</expense_type13>
+        <expense_type14>Hệ thống y tế</expense_type14>
+        <expense_type15>Hệ thống giáo dục</expense_type15>
+        <expense_type16>Cơ chế nhà nước</expense_type16>
+        <expense_type17>Lương công chức</expense_type17>
+        <expense_type18>Chi tiêu cho xã hội</expense_type18>
+        <expense_type19>An ninh trật tự</expense_type19>
+        <expense_type20>Cơ quan tình báo</expense_type20>
+        <expense_type21>Nông nghiệp</expense_type21>
+        <expense_type22>Cơ sở hạ tầng</expense_type22>
+        <expense_type23>Công nghiệp nhẹ</expense_type23>
+        <expense_type24>Công nghiệp nặng</expense_type24>
+        <expense_type25>Tổ hợp quân sự – công nghiệp</expense_type25>
+        <expense_type26>Ngành dịch vụ</expense_type26>
+        <expense_type27>Nhập khẩu sản phẩm nông nghiệp</expense_type27>
+        <expense_type28>Nhập khẩu hàng xa xỉ</expense_type28>
+        <expense_type29>Nhập khẩu thuốc</expense_type29>
+        <expense_type30>Nhập khẩu văn hóa phẩm</expense_type30>
+        <expense_type31>Nhập khẩu thiết bị công nghiệp</expense_type31>
+        <expense_type32>Duy trì nợ</expense_type32>
+        <expense_type33>Hành động ngoại giao</expense_type33>
     </expense_type>
     <!-- Affects / If / invested, then -->
     <expense_desc>

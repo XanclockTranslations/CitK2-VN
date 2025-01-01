@@ -9,17 +9,17 @@ Hiện tại (ngày 1 tháng 1 năm 2025), trò chơi đang được phát tri�
 Truy cập trang chính thức của nhà phát triển tại: [nostal.games](https://nostal.games/).
 Tải trò chơi trên Steam: [Crisis in the Kremlin: The Cold War](https://store.steampowered.com/app/1922740/Crisis_in_the_Kremlin_The_Cold_War/).
 
-Repo này chứa bản dịch tiếng Việt cho trò chơi, được thực hiện bởi nhóm dịch [XanclockTranslations](https://github/XanclockTranslations/). Hiện tại, bản dịch đang được thực hiện cho phiên bản demo mới nhất (Demo v6).
+Repo này chứa bản dịch tiếng Việt cho trò chơi, được thực hiện bởi nhóm dịch [XanclockTranslations](https://github.com/XanclockTranslations/). Hiện tại, bản dịch đang được thực hiện cho phiên bản demo mới nhất (Demo v6).
 
 ## Hướng dẫn sử dụng
 
 - Sau khi cài đặt trò chơi, hãy chạy thử trò chơi để tạo ra các tệp cấu hình và thư mục dữ liệu.
 
-- Tải bản mod tiếng Việt từ repo này, có thể sử dụng đường link sau: [Bản dịch tiếng Việt cho CitK2](https://github/XanclockTranslations/citk2-vn/releases).
+- Tải bản mod tiếng Việt từ repo này, có thể sử dụng đường link sau: [Bản dịch tiếng Việt cho CitK2](https://github.com/XanclockTranslations/citk2-vn/releases).
 
 - Trên Windows, giải nén bản dịch vào thư mục `C:\Users\<tên người dùng>\AppData\LocalLow\Nostalgames\CrisisInTheKremlin2\mods\`.
 
-- Kiểm tra lại nội dung giải nén: Là một folder có tên `citk2-vn` chứa 3 file: `icon.png` (icon của mod), `info.json` (thông tin mod), `text.xml` (bản dịch).
+- Kiểm tra lại nội dung giải nén: Là một folder có tên `citk2-vn` chứa 4 file: `icon.png` (icon của mod), `info.json` (thông tin mod), `text.xml` (bản dịch), `changelog.md` (lịch sử cập nhật).
 
 ## Việc cần làm
 
