@@ -28,4 +28,4 @@ Repo này chứa bản dịch tiếng Việt cho trò chơi, được thực hi�
 - [ ] Thêm changelog (lịch sử cập nhật) của bản dịch.
 - [ ] Thêm các bản release vào phần releases của repo để người chơi có thể dễ dàng tải về. 
 - [ ] Thêm giấy phép mã nguồn mở phù hợp.
-- [ ] Hoàn thành bản dịch (Phiên bản hiện tại: Demo v6).
+- [ ] Hoàn thành bản dịch theo phiên bản trò chơi hiện tại.
