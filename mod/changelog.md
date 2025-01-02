@@ -13,7 +13,10 @@
 
 - `tutorial` (hướng dẫn chơi). Hiện đã chia nhỏ thành các phần nhỏ hơn để dịch dần.
     - Ghi chú 1: Tên của Liên Xô hiện tại có lẽ được hardcode (cố định) trong game, nên không thể dịch được. Tạm thời giữ nguyên là `USSR`.
-- `warSectorNames` (tên các khu vực có chiến tranh). Hiện đã dịch một số tên khu vực.
+
+### Đã dịch
+
+- `warSectorNames` (tên các khu vực có chiến tranh). Hiện tại có 3 khu vực: `Afghanistan`, `Nicaragua`, `Iraq-Iran` (dù có 4 cuộc chiến tính cả `Nội chiến Angola` nhưng file dịch chỉ có 3; sắp tới có thể có thêm `Nội chiến Triều Tiên` trong phiên bản chính thức).
 
 
 ## v0.3 (ngày 2 tháng 1 năm 2025)

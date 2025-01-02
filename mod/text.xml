@@ -288,7 +288,7 @@
     </statistic_value_group_name>
 
     <!--
-        Phần <warSectorNames> chứa tên các khu vực xảy ra chiến tranh trong trò chơi. #TODO: Cần bổ sung.
+        Phần <warSectorNames> chứa tên các khu vực xảy ra chiến tranh trong trò chơi.
     -->
     <warSectorNames>
         <!--
@@ -307,26 +307,26 @@
         <!--
             Ghi chú: Phần này chứa tên các khu vực tại Nicaragua.
         -->
-        <WarNicaraguanWarSector0>Atlantic North</WarNicaraguanWarSector0>
+        <WarNicaraguanWarSector0>Bắc duyên hải Đại Tây Dương</WarNicaraguanWarSector0>
         <WarNicaraguanWarSector1>Jinotega</WarNicaraguanWarSector1>
         <WarNicaraguanWarSector2>Nueva Segovia</WarNicaraguanWarSector2>
         <WarNicaraguanWarSector3>Chinandega</WarNicaraguanWarSector3>
         <WarNicaraguanWarSector4>Matagalpa</WarNicaraguanWarSector4>
-        <WarNicaraguanWarSector5>Atlantic Central</WarNicaraguanWarSector5>
-        <WarNicaraguanWarSector6>Atlantic South</WarNicaraguanWarSector6>
+        <WarNicaraguanWarSector5>Trung duyên hải Đại Tây Dương</WarNicaraguanWarSector5>
+        <WarNicaraguanWarSector6>Nam duyên hải Đại Tây Dương</WarNicaraguanWarSector6>
         <WarNicaraguanWarSector7>Rio San Juan</WarNicaraguanWarSector7>
 
         <!--
             Ghi chú: Phần này chứa tên các khu vực tại Iraq và Iran.
         -->
-        <WarIranIraqWarSector0>Iraqi Kurdistan</WarIranIraqWarSector0>
+        <WarIranIraqWarSector0>Kurdistan thuộc Iraq</WarIranIraqWarSector0>
         <WarIranIraqWarSector1>Nineveh</WarIranIraqWarSector1>
         <WarIranIraqWarSector2>Salah al-Din</WarIranIraqWarSector2>
         <WarIranIraqWarSector3>Baghdad</WarIranIraqWarSector3>
         <WarIranIraqWarSector4>Anbar</WarIranIraqWarSector4>
         <WarIranIraqWarSector5>Basra</WarIranIraqWarSector5>
-        <WarIranIraqWarSector6>Iranian Kurdistan</WarIranIraqWarSector6>
-        <WarIranIraqWarSector7>South Azerbaijan</WarIranIraqWarSector7>
+        <WarIranIraqWarSector6>Kurdistan thuộc Iran</WarIranIraqWarSector6>
+        <WarIranIraqWarSector7>Nam Azerbaijan</WarIranIraqWarSector7>
         <WarIranIraqWarSector8>Tehran</WarIranIraqWarSector8>
         <WarIranIraqWarSector9>Ilam</WarIranIraqWarSector9>
         <WarIranIraqWarSector10>Khuzestan</WarIranIraqWarSector10>
