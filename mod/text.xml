@@ -85,27 +85,43 @@
         <player_political_cord_position>Vị trí của người chơi</player_political_cord_position>
     </ui>
 
+    <!--
+        Phần <tutorial> chứa các nội dung về phần hướng dẫn, giúp người chơi hiểu rõ hơn về trò chơi. 
+    -->
     <tutorial>
-        <close>Close</close>
-        <tutorial_question>Enable tutorial?</tutorial_question>
-        <yes>Yes</yes>
-        <no>No</no>
+        <!--
+            Ghi chú: Phần này là giao diện trước khi bắt đầu hướng dẫn. 
+        -->
+        <close>Đóng</close>
+        <tutorial_question>Bạn có muốn bắt đầu phần Hướng dẫn?</tutorial_question>
+        <yes>Có</yes>
+        <no>Không</no>
 
-        <part0>Crisis in the Kremlin: Cold War – a real-time political strategy game. In the game, you will take on the role of the head of state and save {2} from collapse. To achieve this, various tools for managing the country are at your disposal — conducting foreign and domestic policy, controlling the economy and budget, and interacting with ministers and other politicians.</part0>
-        <part1>The user interface of all sections consists of several parts. At the top of the screen, you will find the main foreign and domestic political indicators of the country, warnings, and the game time control panel. In the bottom right corner are buttons for navigating to other sections.</part1>
-        <part2>The current game date is displayed at the top of the screen. Game time is activated with the buttons {2} {3} {4}, which control its speed. You can change the game time speed using the keys “1”, “2”, “3”. The {5} button pauses the game time. You can also pause time by pressing the “SPACE” key.</part2>
-        <part3>Activate the game time by pressing {2} {3} or {4}.</part3>
-        <part4>An event has appeared. When an event occurs, game time automatically pauses. You can open the event only when the government is fully staffed. {0}Click the event icon or press "E" to open it.</part4>
-        <part5>The event window has opened. There are three types of events in the game. {0}1. Newspaper event – where there are no response options. {0}2. Standard event – with multiple response options. {0}3. Dialogue event – where one of the politicians addresses you with response options.</part5>
-        <part6>This event is a newspaper event. There are no response options, but it can affect game parameters. You can scroll through the event text using the scroll bar or the mouse wheel. {0}After reading, press the "Next" button.</part6>
-        <part7>Activate the game time by pressing {2} {3} or {4}, and open the next event.</part7>
-        <part8var0>This event is a regular one. It can have from one to several response options. Dialog events are arranged similarly.</part8var0>
-        <part8var1>This event is a dialogue one. It can have from one to several response options. Regular events are arranged similarly.</part8var1>
-        <part9>Some response options may have conditions that make them available.{0}{2} – means the conditions are met.{0}{3} – means the conditions are not met.{0}{4} – means there are no conditions.{0}Conditions can be variable, include multiple points, be mutually exclusive, or complementary.{0}Scroll down to the response options.</part9>
-        <part10>Hover over the indicated icon to the left of the response option to view the event conditions.</part10>
-        <part11>Hover over the text of the response option to view the result of your selection. Choose any of the response options.</part11>
-        <part12>Close the event by pressing "Next".</part12>
+        <!--
+            Ghi chú: Phần này là nội dung hướng dẫn (phần 1).
+        -->
+        <part0>Crisis in the Kremlin: Cold War là một trò chơi chiến thuật thời gian thực. Trong trò chơi, bạn sẽ đảm nhiệm vai trò của nhà lãnh đạo {2} và giúp đất nước thoát khỏi sự sụp đổ. Để đạt được điều này, bạn sẽ thực hiện các công việc quản lý quốc gia như: thi hành các chính sách đối ngoại và đối nội, kiểm soát nền kinh tế và ngân sách, cũng như tương tác với các bộ trưởng và những chính trị gia khác.</part0> 
+        <part1>Giao diện người dùng của trò chơi các phần bao gồm nhiều phần. Ở nửa trên của màn hình, bạn có thể thấy các chỉ số chính về chính trị trong nước và quốc tế của quốc gia, cũng như các cảnh báo và bảng điều khiển thời gian trò chơi. Ở góc dưới bên phải là các nút điều hướng đến các phần khác.</part1>
+        <part2>Ngày hiện tại trong trò chơi được hiển thị ở đầu màn hình. Thời gian trong trò chơi được kích hoạt (hủy tạm dừng) với các nút {2} {3} {4}, điều khiển tốc độ thời gian trôi. Bạn có thể thay đổi tốc độ thời gian bằng các phím "1", "2", "3". Nút {5} tạm dừng thời gian trò chơi. Bạn cũng có thể tạm dừng thời gian bằng cách nhấn phím cách.</part2>
+        <part3>Kích hoạt thời gian trong trò chơi bằng cách nhấn {2} {3} hoặc {4}.</part3>
+        <part4>Một sự kiện đã xuất hiện. Khi một sự kiện xảy ra, thời gian trò chơi tự động tạm dừng. Bạn chỉ có thể mở sự kiện khi chính phủ đã đầy đủ nhân sự. {0}Nhấn vào biểu tượng sự kiện hoặc nhấn phím "E" để mở sự kiện.</part4>
+        <part5>Cửa sổ sự kiện đã mở. Có ba loại sự kiện trong trò chơi. {0}1. Sự kiện báo chí (không có các lựa chọn phản hồi). {0}2. Sự kiện thông thường (có nhiều lựa chọn phản hồi). {0}3. Sự kiện đối thoại – xuất hiện khi một trong các chính trị gia trò chuyện với bạn (có nhiều lựa chọn phản hồi).</part5>
+        <part6>Sự kiện này là một sự kiện báo chí. Tuy không có các lựa chọn phản hồi, nhưng nó có thể ảnh hưởng đến các tham số của trò chơi. Bạn có thể lướt qua văn bản sự kiện bằng thanh cuộn hoặc bánh xe chuột. {0}Sau khi đọc xong, nhấn nút "Tiếp theo".</part6>
+        <part7>Kích hoạt thời gian trong trò chơi bằng cách nhấn {2} {3} hoặc {4}, và mở sự kiện tiếp theo.</part7>
+        <part8var0>Sự kiện này là một sự kiện thông thường. Nó có thể có một hoặc nhiều lựa chọn phản hồi. Các sự kiện đối thoại cũng có cấu trúc như thế này.</part8var0>
+        <part8var1>Sự kiện này là một sự kiện đối thoại. Nó có thể có một hoặc nhiều lựa chọn phản hồi. Các sự kiện thông thường cũng có cấu trúc như thế này.</part8var1>
 
+        <!--
+            Ghi chú: Phần này còn dịch hơi thô, cần sửa lại. #TODO.
+        -->
+        <part9>Một số lựa chọn phản hồi có thể có các điều kiện để chúng có sẵn.{0}{2} – có nghĩa là các điều kiện đã được thỏa mãn.{0}{3} – có nghĩa là các điều kiện chưa được thỏa mãn.{0}{4} – có nghĩa là không có điều kiện.{0}Điều kiện có thể thay đổi, bao gồm nhiều điểm, có thể loại trừ nhau hoặc bổ sung cho nhau.{0}Cuộn xuống để xem các lựa chọn phản hồi.</part9>
+        <part10>Di chuột qua biểu tượng chỉ định bên trái của lựa chọn phản hồi để xem các điều kiện sự kiện.</part10>
+        <part11>Di chuột qua văn bản của lựa chọn phản hồi để xem kết quả của sự lựa chọn của bạn. Chọn bất kỳ lựa chọn phản hồi nào.</part11>
+        <part12>Đóng sự kiện bằng cách nhấn "Tiếp theo".</part12>
+
+        <!--
+            Ghi chú: Phần này là nội dung hướng dẫn (phần 2).
+        -->
         <part13>Let's move on to other parts of the interface.</part13>
         <part14>In the top left corner, warnings will occasionally appear, informing you of impending crises in various sectors of society, relationships with other countries, or politicians, depending on the situation. Clicking on the warning icon will open the section related to the problematic area.</part14>
         <part15>The main country indicators are located in the top left and right parts of the screen. Most indicators in the game change on the first day of each month.</part15>
@@ -120,6 +136,9 @@
         <part24>{2}Budget balance – the difference between income and expenses. If the budget balance is positive, the amount is added to the {3}Reserve. Otherwise, money is taken from the reserve. If the reserve is depleted, you will need to reduce expenses or take external loans.</part24>
         <part25>{2}Reserve – the accumulated financial reserve. It is used as a condition and expense for most domestic and foreign policy actions. Depleting the reserve below a certain level can trigger a crisis event.</part25>
 
+        <!--
+            Ghi chú: Phần này là nội dung hướng dẫn (phần 3).
+        -->
         <part26>Let's review the main elements of the diplomacy section.</part26>
         <part27>In the upper-right corner, five main diplomatic map modes are presented: {0}{3}Military alliances – a map of all current members of military alliances. {0}{4}Economic blocs – a map of all current members of economic unions. {0}{5}Influence – a map of the influence of major powers. {0}{6}Ideologies – a map of the political systems of countries. {0}{7}Relations with the player – a map of the friendliness of countries towards the player. The warmer the color, the better the relations; the colder the color, the worse the relations. {0}Press {2} to see additional diplomatic map modes.</part27>
         <part28>The scroll bar on the right side of the screen allows you to zoom in or out on the map. This can also be done using the mouse wheel.</part28>
@@ -143,6 +162,9 @@
         <part44>Close the diplomacy window.</part44>
         <part45>The diplomacy section tutorial is complete. In the lower-right corner is the game section panel. You can navigate to any section in any order and read about each of them.</part45>
 
+        <!--
+            Ghi chú: Phần này là nội dung hướng dẫn (phần 4).
+        -->
         <part46>This section presents decisions and modifiers.</part46>
         <part47>Decisions are a set of political actions for implementing domestic and foreign policies, introducing scientific achievements, and carrying out reforms. {0} Decisions are divided into nine categories, eight of which are thematic (Army, Diplomacy, Politics, etc.), and one is a list of already adopted decisions.</part47>
         <part48>Modifiers are various processes, phenomena, decisions, and policies that have a lasting impact on the game's parameters. {0} Modifiers are divided into four categories: Diplomacy, Politics, Economy, and Party.</part48>
@@ -154,6 +176,9 @@
         <part54>Hover over the specified icon to see the recurring influence of the modifier.</part54>
         <part55>Hover over the specified icon. It may display not only the modifier’s influence but also its level and progress (if provided by the modifier). {0} Go to the decisions section if you want to learn more about them.</part55>
 
+        <!--
+            Ghi chú: Phần này là nội dung hướng dẫn (phần 5).
+        -->
         <part56>This section presents statistics for all of the player's country indicators.</part56>
         <part57>Hovering over the country flag shows the current name of the state, its government type, ruling party, and information about the size of the player’s country's alliances.</part57>
         <part58>The statistics can be sorted according to your preference: alphabetically, by increasing or decreasing values.</part58>
@@ -161,6 +186,9 @@
         <part60>Hover over any of the parameters. After the first turn, you will be able to see in a tooltip the monthly influence of modifiers, doctrines, ministers, and other effects on that parameter. {0} Click on any of the parameters.</part60>
         <part61>Here you can see the dynamic change in the selected parameter over a six-month or one-year period.</part61>
 
+        <!--
+            Ghi chú: Phần này là nội dung hướng dẫn (phần 6).
+        -->
         <part62>Economic management is one of the most important parts of the game. This section presents the main spending articles of the country, which are divided into several categories.</part62>
         <part63>You can change the amount of investment using {2} {3} or {4}. {0} When hovering over a budget article, its approximate influence on the country’s indicators is displayed.</part63>
         <part64>Here are the current budget revenues and expenditures. {0} The budget balance is the difference between income and expenses. If the budget balance is positive, the amount is deposited into the Reserve. Otherwise, money is withdrawn from the reserve. If the reserve is depleted, you will need to reduce expenses or take external loans.</part64>
@@ -171,6 +199,9 @@
         <part69>Debts to foreign creditors. {0} Our country can take loans from three forces – the USA, France, and the IMF. However, a certain amount of money will be spent on debt repayment each year.</part69>
         <part70>Fixed expenses – monthly mandatory expenses. These consist of debt repayments and interactions with other countries on the diplomatic map.</part70>
 
+        <!--
+            Ghi chú: Phần này là nội dung hướng dẫn (phần 7).
+        -->
         <part71>This is the research section.</part71>
         <part72>All research for the player's country is divided into several categories: space, cybernetics, agro-technologies, military, and nuclear research. Each category contains two branches with different technologies. Some of them can be researched sequentially, while others are mutually exclusive.</part72>
         <part73>Select any of the technologies.</part73>
@@ -179,6 +210,9 @@
         <part76>In addition to the player's country, another superpower, the United States, is also conducting research. Open the specified section with U.S. technologies.</part76>
         <part77>During the Cold War, a technology race for dominance in space, armaments, and computers unfolded. Some U.S. technologies duplicate the player's country’s technologies, so the country that implements them first will gain a significant technological advantage and admiration from the global community. {0} In addition to fundamental technical research, the U.S. also conducts humanitarian research, which can influence the policies of other countries, especially the player's country.</part77>
 
+        <!--
+            Ghi chú: Phần này là nội dung hướng dẫn (phần 8).
+        -->
         <part78>This is the section of the country’s representative body. Depending on the doctrines, it could be the Central Committee of the ruling party or the current parliament of the country.</part78>
         <part79>The game features 8 different factions. Each faction is unique and has its own vision for reforms and state structure. {0} In a multi-party system, each faction transforms into one of two party variations – moderate and radical.</part79>
         <part80>All factions have their open and hidden supporters. Open supporters are those who genuinely sympathize with the faction. Hidden supporters are those who sympathize with a banned faction but are forced to be in another, closest in views from the legal ones. If all factions are allowed, there are no hidden supporters. {0} The size of factions constantly changes due to various factors: ministers, elections, events, and modifiers. {0} Factions, depending on political doctrines, influence the adoption of certain laws, supporting or rejecting them.</part80>
@@ -188,6 +222,9 @@
         <part83>Doctrines reflect the state's policy in a particular area. {0} Doctrines are divided into three major blocks: diplomatic, economic, and domestic political.</part83>
         <part84>Click on any of the presented doctrines.</part84>
         
+        <!--
+            Ghi chú: Phần này là nội dung hướng dẫn (phần 9).
+        -->
         <part85>This is the doctrine window. Each doctrine has several options that can be found in multiple branches. {0}A checkbox indicates the current doctrine option. Available options for change are highlighted in white. Gradually, you will unlock more advanced options in the branches as the player progresses through the game.</part85>
         <part86>Click on any of the doctrine values except the current one.</part86>
         <part87>The conditions for transitioning to the selected doctrine option are listed below.</part87>
@@ -195,6 +232,9 @@
         <part89>Scroll through the description and click the voting button.</part89>
         <part90>The game features 4 voting systems. All of them are related to the doctrine "Legislative Right".{0}1. Sole Dictatorship. All laws are passed by the player. The opinions of factions or politicians are not considered. More political capital is spent on changing the doctrine.{0}2. Party Oligarchy. The strength of all supporting and opposing politicians regarding the change of doctrine is compared.{0}3. Representative Democracy. The number of a particular faction in the representative body is checked.{0}4. Direct Democracy. The transition to a particular doctrine option depends on the country's parameters (Strength of Radical Opposition, Unity of Opinions, Civic Activity).</part90>
 
+        <!--
+            Ghi chú: Phần này là nội dung hướng dẫn (phần 10).
+        -->
         <part91>Interaction with politicians is available in the game, which is one of the core mechanics.</part91>
         <part92>The number of politicians in the pool is always limited. Over time, politicians will lose influence or die, and new ones will replace them. Politicians representing national republics leave the pool if their republic separates from the player's country.</part92>
         <part93>Each politician has a card that contains basic information about them.</part93>
@@ -247,17 +287,26 @@
         <Everything>Everything</Everything>
     </statistic_value_group_name>
 
+    <!--
+        Phần <warSectorNames> chứa tên các khu vực xảy ra chiến tranh trong trò chơi. #TODO: Cần bổ sung.
+    -->
     <warSectorNames>
-        <WarAfganWarSector0>Central Afghanistan</WarAfganWarSector0>
-        <WarAfganWarSector1>Western Afghanistan</WarAfganWarSector1>
-        <WarAfganWarSector2>Eastern Afghanistan</WarAfganWarSector2>
-        <WarAfganWarSector3>Southeastern Afghanistan</WarAfganWarSector3>
-        <WarAfganWarSector4>Northeastern Afghanistan</WarAfganWarSector4>
-        <WarAfganWarSector5>Northern Afghanistan</WarAfganWarSector5>
+        <!--
+            Ghi chú: Phần này chứa tên các khu vực tại Afghanistan.
+        -->
+        <WarAfganWarSector0>Trung Afghanistan</WarAfganWarSector0>
+        <WarAfganWarSector1>Tây Afghanistan</WarAfganWarSector1>
+        <WarAfganWarSector2>Đông Afghanistan</WarAfganWarSector2>
+        <WarAfganWarSector3>Đông Nam Afghanistan</WarAfganWarSector3>
+        <WarAfganWarSector4>Đông Bắc Afghanistan</WarAfganWarSector4>
+        <WarAfganWarSector5>Bắc Afghanistan</WarAfganWarSector5>
         <WarAfganWarSector6>Badakhshan</WarAfganWarSector6>
-        <WarAfganWarSector7>Southwest Afghanistan</WarAfganWarSector7>
-        <WarAfganWarSector8>Southern Afghanistan</WarAfganWarSector8>
+        <WarAfganWarSector7>Tây Nam Afghanistan</WarAfganWarSector7>
+        <WarAfganWarSector8>Nam Afghanistan</WarAfganWarSector8>
 
+        <!--
+            Ghi chú: Phần này chứa tên các khu vực tại Nicaragua.
+        -->
         <WarNicaraguanWarSector0>Atlantic North</WarNicaraguanWarSector0>
         <WarNicaraguanWarSector1>Jinotega</WarNicaraguanWarSector1>
         <WarNicaraguanWarSector2>Nueva Segovia</WarNicaraguanWarSector2>
@@ -266,6 +315,10 @@
         <WarNicaraguanWarSector5>Atlantic Central</WarNicaraguanWarSector5>
         <WarNicaraguanWarSector6>Atlantic South</WarNicaraguanWarSector6>
         <WarNicaraguanWarSector7>Rio San Juan</WarNicaraguanWarSector7>
+
+        <!--
+            Ghi chú: Phần này chứa tên các khu vực tại Iraq và Iran.
+        -->
         <WarIranIraqWarSector0>Iraqi Kurdistan</WarIranIraqWarSector0>
         <WarIranIraqWarSector1>Nineveh</WarIranIraqWarSector1>
         <WarIranIraqWarSector2>Salah al-Din</WarIranIraqWarSector2>
@@ -278,7 +331,6 @@
         <WarIranIraqWarSector9>Ilam</WarIranIraqWarSector9>
         <WarIranIraqWarSector10>Khuzestan</WarIranIraqWarSector10>
         <WarIranIraqWarSector11>Isfahan</WarIranIraqWarSector11>
-
     </warSectorNames>
 
 
@@ -482,7 +534,7 @@
         Phần <dlcs> chứa tên các DLCs (bản mở rộng) của trò chơi.
     -->
     <dlcs>
-        <dlc1>Nam Tư</dlc1>
+        <dlc1>Nam Tư (Yugoslavia)</dlc1>
     </dlcs>
 
     <!--
@@ -704,7 +756,7 @@
         <adkb_full>Collective Security Treaty Alliance</adkb_full>
         <nato_partner_full>Partnership with NATO</nato_partner_full>
         <ovd_full>Warsaw Pact Organization</ovd_full>
-        <omd_full>Moscow Pact Organization</omd_full>       
+        <omd_full>Moscow Pact Organization</omd_full> (Yugoslavia)
 
         <trade>Close trade</trade>
         <ties_disruption>Cut economic ties</ties_disruption>
