@@ -18,7 +18,8 @@
 
 - `warSectorNames` (tên các khu vực có chiến tranh). Hiện tại có 3 khu vực: `Afghanistan`, `Nicaragua`, `Iraq-Iran` (dù có 4 cuộc chiến tính cả `Nội chiến Angola` nhưng file dịch chỉ có 3; sắp tới có thể có thêm `Nội chiến Triều Tiên` trong phiên bản chính thức).
 - `country_bar` (chứa hiệu ứng đặc biệt của một số quốc gia).
-- `mod_creation` (chứa các thông điệp liên quan đến việc tạo mod). 
+- `mod_creation` (chứa các thông điệp liên quan đến việc tạo mod).
+- `sceneNames` (chứa các giao diện về những nội dung cụ thể trong trò chơi, VD: Ngoại giao, Khoa học, Chính sách, ...).
 
 ## v0.3 (ngày 2 tháng 1 năm 2025)
 Về cơ bản là v0.2 nhưng đã cập nhật với phiên bản trò chơi mới nhất (Demo v6.1).

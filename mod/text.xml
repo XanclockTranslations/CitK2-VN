@@ -562,15 +562,18 @@
         <ussr_base>Soviet base</ussr_base>
     </base_type>
 
+    <!--
+        Phần <scenesNames> chứa tên các giao diện với những nội dung cụ thể trong trò chơi (VD: Ngoại giao, Khoa học, Chính sách, ...).
+    -->
     <scenesNames>
-        <scene6>Diplomacy</scene6>
-        <scene7>Science</scene7>
-        <scene9>Doctrines</scene9>
-        <scene15>Congress</scene15>
-        <scene14>Politics</scene14>
-        <scene13>Budget</scene13>
-        <scene12>Decisions</scene12>
-        <scene16>Statistics</scene16>
+        <scene6>Ngoại giao</scene6>
+        <scene12>Quyết định</scene12>
+        <scene13>Ngân sách</scene13>
+        <scene16>Số liệu thống kê</scene16>
+        <scene9>Chính sách</scene9>
+        <scene7>Khoa học</scene7>
+        <scene14>Chính trị</scene14>
+        <scene15>Đại hội Đảng</scene15>
     </scenesNames>
 
     <citations>
