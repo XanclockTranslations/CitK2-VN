@@ -356,35 +356,39 @@
         <type5>TiesDisruption</type5>
     </economy_aliance_type>
 
+    <!--
+        Phần <mod_creation> chứa các thông điệp liên quan đến việc tạo mod. 
+    -->
     <mod_creation>
-        <back>Back</back>
-        <upload_mod>Upload mod</upload_mod>
-        <specify_full_path>Specify the full path to the mod content folder</specify_full_path>
-        <select_mod_type>Select mod type</select_mod_type>
-        <mod_type_Translation>Translation</mod_type_Translation>
+        <back>Quay lại</back>
+        <upload_mod>Tải lên mod</upload_mod>
+        <specify_full_path>Đường dẫn đến thư mục chứa nội dung mod</specify_full_path>
+        <select_mod_type>Chọn loại mod</select_mod_type>
+        <mod_type_Translation>Dịch thuật</mod_type_Translation>
         <mod_type_CSharp>C#</mod_type_CSharp>
-        <mod_name>Mod name</mod_name>
-        <mod_desc>Mod description</mod_desc>
-        <mod_game_version>Game version on which the mod should work</mod_game_version>
-        <mod_id>Unique mod ID</mod_id>
-        <mod_can_not_be_created_on_this_platform>Steam has not been launched or downloading mods to Steam is not supported on this platform.</mod_can_not_be_created_on_this_platform>
-        <code_dll_not_found>code.dll not found in the specified folder</code_dll_not_found>
-        <text_xml_not_found>text.xml not found in the specified folder</text_xml_not_found>
-        <icon_png_not_found>icon.png not found in the specified folder</icon_png_not_found>
-        <icon_png_too_long>File icon.png size is too large</icon_png_too_long>
-        <mod_name_empty>Mod name is not specified</mod_name_empty>
-        <mod_ver_empty>Game version is not specified</mod_ver_empty>
-        <mod_id_empty>Mod ID is not specified</mod_id_empty>
-        <directory_not_found>The specified directory does not exist or cannot be accessed</directory_not_found>
-        <errors_found>Errors encountered when trying to create a mod</errors_found>
-        <mod_upload_mode>Mod uploading mode</mod_upload_mode>
-        <new_mod>Creating a new mod</new_mod>
-        <updating_mod>Updating an existing mod</updating_mod>
-        <mod_steam_id>Steam id of an existing mod</mod_steam_id>
-        <mod_steam_id_empty>Steam id of an existing mod is not specified</mod_steam_id_empty>
-        <mod_uploaded>The mod was successfully uploaded to Steam. Its ID is: {0}</mod_uploaded>
-        <mod_not_uploaded>The mod was not uploaded to Steam. An error has occurred: {0}</mod_not_uploaded>
+        <mod_name>Tên mod</mod_name>
+        <mod_desc>Mô tả mod</mod_desc>
+        <mod_game_version>Phiên bản trò chơi hỗ trợ mod</mod_game_version>
+        <mod_id>ID mod độc nhất</mod_id>
+        <mod_can_not_be_created_on_this_platform>Steam chưa được khởi chạy hoặc việc tải mod lên Steam không được hỗ trợ trên nền tảng này.</mod_can_not_be_created_on_this_platform>
+        <code_dll_not_found>Không tìm thấy code.dll trong thư mục đã chỉ định</code_dll_not_found>
+        <text_xml_not_found>Không tìm thấy text.xml trong thư mục đã chỉ định</text_xml_not_found>
+        <icon_png_not_found>Không tìm thấy icon.png trong thư mục đã chỉ định</icon_png_not_found>
+        <icon_png_too_long>Kích thước tệp icon.png quá lớn</icon_png_too_long>
+        <mod_name_empty>Chưa chỉ định tên mod</mod_name_empty>
+        <mod_ver_empty>Chưa chỉ định phiên bản trò chơi</mod_ver_empty>
+        <mod_id_empty>Chưa chỉ định ID mod</mod_id_empty>
+        <directory_not_found>Thư mục đã chỉ định không tồn tại hoặc không thể truy cập</directory_not_found>
+        <errors_found>Có lỗi xảy ra khi cố gắng tạo mod</errors_found>
+        <mod_upload_mode>Chế độ tải lên mod</mod_upload_mode>
+        <new_mod>Tạo mod mới</new_mod>
+        <updating_mod>Cập nhật mod hiện có</updating_mod>
+        <mod_steam_id>ID Steam của mod hiện có</mod_steam_id>
+        <mod_steam_id_empty>Chưa chỉ định ID Steam của mod hiện có</mod_steam_id_empty>
+        <mod_uploaded>Mod đã được tải lên Steam thành công. ID của mod là: {0}</mod_uploaded>
+        <mod_not_uploaded>Mod chưa được tải lên Steam. Đã xảy ra lỗi: {0}</mod_not_uploaded>
     </mod_creation>
+
 
     <science_points_types>
         <military_points>Military points</military_points>
@@ -5432,14 +5436,17 @@
         <icon59>equals</icon59>
     </icon_desc>
 
-        <country_bar>
-        <Poland0>The "Solidarity" Issue</Poland0>
-        <Poland1>The Katyn Massacre</Poland1>
-        <China0>The Third Force</China0>
-        <China1>The Sino-Soviet Split</China1>
-        <Albania0>The Stronghold of Anti-Revisionism</Albania0>
-        <USA0>Global Hegemon</USA0>
-        </country_bar>
+    <!--
+        Phần <country_bar> chứa hiệu ứng đặc biệt của một số quốc gia. 
+    -->
+    <country_bar>
+        <Poland0>Vấn đề "Đoàn kết"</Poland0>
+        <Poland1>Thảm sát Katyn</Poland1>
+        <China0>Thế lực thứ ba</China0>
+        <China1>Chia rẽ Xô-Trung</China1>
+        <Albania0>Thành trì chống chủ nghĩa xét lại</Albania0>
+        <USA0>Bá quyền thế giới</USA0>
+    </country_bar>
 
     <buttons_names>
         <buttons_infl>One-time effect:</buttons_infl>
