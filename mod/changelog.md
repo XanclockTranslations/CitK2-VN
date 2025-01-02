@@ -6,7 +6,7 @@
 
 - Thêm dấu `này` vào tên riêng các phần trong lịch sử cập nhật, ví dụ `dlcs`, `wars`, `expense_group`, `expense_type`, `science_type`...
 - Bổ sung tên gốc của các bản mở rộng (DLCs) trong `dlcs`. Hiện tại chỉ có một bản mở rộng dự kiến là `Nam Tư (Yugoslavia)`.
-- Bổ sung phiên bản mod vào `info.json`.
+- Bổ sung phiên bản mod vào `info.json`, cũng như tên file nén chứa folder mod. Phiên bản hiện tại là `v0.4`.
 - Bổ sung phần `#TODO` vào chỗ cần dịch/sửa.
 
 ### Đang dịch

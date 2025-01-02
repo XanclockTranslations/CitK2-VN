@@ -1,0 +1,2 @@
+# Folder `.ignore` chuyên chứa các file mang tính chất tạm thời, không cần đẩy lên git.
+.ignore
