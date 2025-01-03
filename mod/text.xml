@@ -86,7 +86,7 @@
     </ui>
 
     <!--
-        Phần <tutorial> chứa các nội dung về phần hướng dẫn, giúp người chơi hiểu rõ hơn về trò chơi. 
+        Phần <tutorial> chứa các nội dung về phần hướng dẫn, giúp người chơi hiểu rõ hơn về trò chơi. #TODO.
     -->
     <tutorial>
         <!--
@@ -289,6 +289,10 @@
 
     <!--
         Phần <warSectorNames> chứa tên các khu vực xảy ra chiến tranh trong trò chơi.
+
+        Ghi chú: Phiên bản trò chơi Demo v6.1 có 4 cuộc chiến (bổ sung Nội chiến Angola) 
+        và theo phần <wars> thì có 5 (bổ sung Nội chiến Triều Tiên),  nhưng file gốc chỉ có 3 cuộc chiến. 
+        Có thể đây là lỗi từ nhà phát triển, và sẽ được bổ sung thêm vào sau này.
     -->
     <warSectorNames>
         <!--
@@ -389,12 +393,14 @@
         <mod_not_uploaded>Mod chưa được tải lên Steam. Đã xảy ra lỗi: {0}</mod_not_uploaded>
     </mod_creation>
 
-
+    <!--
+        Phần <science_points_types> chứa các loại điểm khoa học trong trò chơi.
+    -->
     <science_points_types>
-        <military_points>Military points</military_points>
-        <physic_points>Physic points</physic_points>
-        <cybernetic_points>Cybernetic points</cybernetic_points>
-        <civil_points>Civil points</civil_points>
+        <military_points>Điểm quân sự</military_points>
+        <physic_points>Điểm vật lý</physic_points>
+        <cybernetic_points>Điểm điều khiển học</cybernetic_points>
+        <civil_points>Điểm dân sự</civil_points>
     </science_points_types>
 
 
@@ -474,23 +480,23 @@
     </wars_buttons_name>
 
     <wars_buttons_desc>
-    <var0>Military attachés are dispatched to provide assistance and support in specialized tasks.</var0>
-    <var1>Use napalm to create a fire barrier and eliminate targets in enemy territory.</var1>
-    <var2>Conduct covert delivery of necessary resources and equipment to support allied forces.</var2>
-    <var3>Enter into agreements for regular resource supplies to support an allied state.</var3>
-    <var4>Provide support in the form of food, medicine, and other essential resources.</var4>
-    <var5>Deploy a limited number of troops to perform specific tasks in allied territory.</var5>
-    <var6>Require alliance members to provide support and assistance in addressing common objectives.</var6>
-    <var7>Support a faction in their efforts to achieve political goals.</var7>
-    <var8>Support a faction in their efforts to achieve political goals.</var8>
-    <var9>Request China to join our forces and act as an ally in the conflict.</var9>
-    <var10>Request France to join our forces and act as an ally in the conflict.</var10>
-    <var11>Conduct mass bombings aimed at bringing destruction to vast enemy territories.</var11>
-    <var12>Use chemical agents as weapons to eliminate enemy forces and instill fear among adversaries.</var12>
-    <var13>By infiltrating the enemy, we can disrupt foreign supplies in the region, but this will require significant effort.</var13>
-    <var14>Limited use of tactical nuclear strikes outside civilian population centers and infrastructure will sow confusion and fear among the enemy.</var14>
-    <var15>Leveraging socio-cultural training experience, we will infiltrate enemy groups with undercover agents.</var15>
-    <var16>By carrying out constant assassinations and killings of the leadership of enemy groups, we will undermine their organizational structure.</var16>
+        <var0>Military attachés are dispatched to provide assistance and support in specialized tasks.</var0>
+        <var1>Use napalm to create a fire barrier and eliminate targets in enemy territory.</var1>
+        <var2>Conduct covert delivery of necessary resources and equipment to support allied forces.</var2>
+        <var3>Enter into agreements for regular resource supplies to support an allied state.</var3>
+        <var4>Provide support in the form of food, medicine, and other essential resources.</var4>
+        <var5>Deploy a limited number of troops to perform specific tasks in allied territory.</var5>
+        <var6>Require alliance members to provide support and assistance in addressing common objectives.</var6>
+        <var7>Support a faction in their efforts to achieve political goals.</var7>
+        <var8>Support a faction in their efforts to achieve political goals.</var8>
+        <var9>Request China to join our forces and act as an ally in the conflict.</var9>
+        <var10>Request France to join our forces and act as an ally in the conflict.</var10>
+        <var11>Conduct mass bombings aimed at bringing destruction to vast enemy territories.</var11>
+        <var12>Use chemical agents as weapons to eliminate enemy forces and instill fear among adversaries.</var12>
+        <var13>By infiltrating the enemy, we can disrupt foreign supplies in the region, but this will require significant effort.</var13>
+        <var14>Limited use of tactical nuclear strikes outside civilian population centers and infrastructure will sow confusion and fear among the enemy.</var14>
+        <var15>Leveraging socio-cultural training experience, we will infiltrate enemy groups with undercover agents.</var15>
+        <var16>By carrying out constant assassinations and killings of the leadership of enemy groups, we will undermine their organizational structure.</var16>
     </wars_buttons_desc>
 
     <war_sides_names>
@@ -531,7 +537,6 @@
         <warIranIraqWar>Chiến tranh Iraq-Iran</warIranIraqWar>
         <warAngolanWar>Nội chiến Angola</warAngolanWar>
         <warKoreanWar>Nội chiến Triều Tiên</warKoreanWar>
-
     </wars>
     
     <!--
@@ -550,7 +555,7 @@
         <type2>Công nghệ nông nghiệp</type2>
         <type3>Công nghệ quân sự</type3>
         <type4>Công nghệ nguyên tử</type4>
-        <type5>Tin tình báo về những thành tựu KH của Hoa Kỳ</type5>
+        <type5>Tin tình báo về những thành tựu khoa học của Hoa Kỳ</type5>
     </science_type>
 
     <custom_images>
@@ -4427,24 +4432,27 @@
         <expense_type33 autoNewLine="true" newLineChar="|">Monthly expenses from various actions on the map</expense_type33>
     </expense_desc>
 
+    <!--
+        Phần <science_window> chứa các thông tin về giao diện phần nghiên cứu khoa học. 
+    -->
     <science_window>
-        <description>Description</description>
-        <influence>Influence</influence>
-        <start_research>Research</start_research>
-        <progress_research>Researching</progress_research>
-        <finished_research>Researched</finished_research>
-        <not_avalible_research>Not available</not_avalible_research>
-        <one_by_one>Research branches only one by one</one_by_one>
-        <mutual_exclusion>Research only one branch</mutual_exclusion>
-        <science>Science</science>
+        <description>Mô tả</description>
+        <influence>Ảnh hưởng</influence>
+        <start_research>Nghiên cứu</start_research>
+        <progress_research>Đang nghiên cứu</progress_research>
+        <finished_research>Đã nghiên cứu</finished_research>
+        <not_avalible_research>Không thể thực hiện</not_avalible_research>
+        <one_by_one>Nguyên cứu từng nhánh một</one_by_one>
+        <mutual_exclusion>Nghiên cứu theo một nhánh duy nhất</mutual_exclusion>
+        <science>Khoa học</science>
 
-        <physics_points>Physics Points</physics_points>
-        <civilian_points>Civilian Points</civilian_points>
-        <military_points>Military Points</military_points>
-        <cybernetic_points>Cybernetic Points</cybernetic_points>
+        <physics_points>Điểm vật lý</physics_points>
+        <civilian_points>Điểm dân sự</civilian_points>
+        <military_points>Điểm quân sự</military_points>
+        <cybernetic_points>Điểm điều khiển học</cybernetic_points>
 
-        <science_decision>There will be a decision available</science_decision>
-        <political_points_required>Requires {0} political points</political_points_required>
+        <science_decision>Sẽ xuất hiện quyết định</science_decision>
+        <political_points_required>Yêu cầu {0} điểm chính trị</political_points_required>
     </science_window>
 
     <country_names>

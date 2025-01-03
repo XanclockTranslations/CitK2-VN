@@ -8,6 +8,7 @@
 - Bổ sung tên gốc của các bản mở rộng (DLCs) trong `dlcs`. Hiện tại chỉ có một bản mở rộng dự kiến là `Nam Tư (Yugoslavia)`.
 - Bổ sung phiên bản mod vào `info.json`, cũng như tên file nén chứa folder mod. Phiên bản hiện tại là `v0.4`.
 - Bổ sung phần `#TODO` vào chỗ cần dịch/sửa.
+- Một vài thay đổi nhỏ khác.
 
 ### Đang dịch
 
@@ -20,6 +21,8 @@
 - `country_bar` (chứa hiệu ứng đặc biệt của một số quốc gia).
 - `mod_creation` (chứa các thông điệp liên quan đến việc tạo mod).
 - `sceneNames` (chứa các giao diện về những nội dung cụ thể trong trò chơi, VD: Ngoại giao, Khoa học, Chính sách, ...).
+- `science_points_type` (chứa các loại điểm khoa học).
+- `science_window` (chứa giao diện nghiên cứu).
 
 ## v0.3 (ngày 2 tháng 1 năm 2025)
 Về cơ bản là v0.2 nhưng đã cập nhật với phiên bản trò chơi mới nhất (Demo v6.1).
