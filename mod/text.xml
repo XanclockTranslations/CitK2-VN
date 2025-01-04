@@ -101,7 +101,7 @@
             Ghi chú: Phần này là nội dung hướng dẫn (phần 1).
         -->
         <part0>Crisis in the Kremlin: Cold War là một trò chơi chiến thuật thời gian thực. Trong trò chơi, bạn sẽ đảm nhiệm vai trò của nhà lãnh đạo {2} và giúp đất nước thoát khỏi sự sụp đổ. Để đạt được điều này, bạn sẽ thực hiện các công việc quản lý quốc gia như: thi hành các chính sách đối ngoại và đối nội, kiểm soát nền kinh tế và ngân sách, cũng như tương tác với các bộ trưởng và những chính trị gia khác.</part0> 
-        <part1>Giao diện người dùng của trò chơi các phần bao gồm nhiều phần. Ở nửa trên của màn hình, bạn có thể thấy các chỉ số chính về chính trị trong nước và quốc tế của quốc gia, cũng như các cảnh báo và bảng điều khiển thời gian trò chơi. Ở góc dưới bên phải là các nút điều hướng đến các phần khác.</part1>
+        <part1>Giao diện người dùng của trò chơi các phần bao gồm nhiều phần. Ở góc trên của màn hình, bạn có thể thấy các chỉ số chính về chính trị trong nước và quốc tế của quốc gia, cũng như các cảnh báo và bảng điều khiển thời gian trò chơi. Ở góc dưới bên phải là các nút điều hướng đến các phần khác.</part1>
         <part2>Ngày hiện tại trong trò chơi được hiển thị ở đầu màn hình. Thời gian trong trò chơi được kích hoạt (hủy tạm dừng) với các nút {2} {3} {4}, điều khiển tốc độ thời gian trôi. Bạn có thể thay đổi tốc độ thời gian bằng các phím "1", "2", "3". Nút {5} tạm dừng thời gian trò chơi. Bạn cũng có thể tạm dừng thời gian bằng cách nhấn phím cách.</part2>
         <part3>Kích hoạt thời gian trong trò chơi bằng cách nhấn {2} {3} hoặc {4}.</part3>
         <part4>Một sự kiện đã xuất hiện. Khi một sự kiện xảy ra, thời gian trò chơi tự động tạm dừng. Bạn chỉ có thể mở sự kiện khi chính phủ đã đầy đủ nhân sự. {0}Nhấn vào biểu tượng sự kiện hoặc nhấn phím "E" để mở sự kiện.</part4>
@@ -122,19 +122,32 @@
         <!--
             Ghi chú: Phần này là nội dung hướng dẫn (phần 2).
         -->
-        <part13>Let's move on to other parts of the interface.</part13>
-        <part14>In the top left corner, warnings will occasionally appear, informing you of impending crises in various sectors of society, relationships with other countries, or politicians, depending on the situation. Clicking on the warning icon will open the section related to the problematic area.</part14>
-        <part15>The main country indicators are located in the top left and right parts of the screen. Most indicators in the game change on the first day of each month.</part15>
-        <part16>{2}DEFCON – a scale indicating the readiness level of the U.S. armed forces. It ranges from 5 (normal readiness) to 1 (maximum readiness). If relations with the U.S. fall below 15, the DEFCON level increases by one point. If relations with the U.S. rise above 100, the DEFCON level decreases by one point.</part16>
-        <part17>The next three indicators are: {2}Relations with the U.S., {3}Relations with France, {4}Relations with China. These are the main rival countries competing for spheres of diplomatic influence. Deterioration of relations with them can trigger a crisis event.</part17>
-        <part18>{2}Military readiness – an indicator of the strength of the country's army. It is involved in wars, events, and other diplomatic actions. If the indicator falls below a certain level, it can trigger a crisis event.</part18>
-        <part19>{2}Loyalty of security services – an indicator of the loyalty of the country's security services. It is often used as a condition for certain actions in events, diplomacy, or politics. If the indicator falls below a certain level, it will lead to discontent among the security services and trigger a crisis event.</part19>
-        <part20>{2}Political capital – accumulated points of political power. This is the main resource in the game. It is required for conducting internal and foreign policies, making decisions, changing doctrines, appointing ministers, participating in conspiracies, and choosing outcomes in game events.</part20>
-        <part21>{2}Total science points – the total number of all types of science points in the game. There are 4 types of science points: {0}{3}Military points{0}{4}Physical points{0}{5}Cybernetic points{0}{6}Civilian points. {0}Contributions to various budget items affect the accumulation of science points. Science points are used to conduct research. You can read more about research in the "Science" section.</part21>
-        <part22>{2}Country population – an indicator of the current population of the country. It is summed up by the subjects that are part of the country. If a subject leaves the country, the population will decrease.</part22>
-        <part23>{2}Radical opposition strength – an indicator of the influence of the most radical forces and ideas. It affects the destabilization of the country's domestic political situation. Exceeding this indicator beyond a certain level can trigger a crisis event.</part23>
-        <part24>{2}Budget balance – the difference between income and expenses. If the budget balance is positive, the amount is added to the {3}Reserve. Otherwise, money is taken from the reserve. If the reserve is depleted, you will need to reduce expenses or take external loans.</part24>
-        <part25>{2}Reserve – the accumulated financial reserve. It is used as a condition and expense for most domestic and foreign policy actions. Depleting the reserve below a certain level can trigger a crisis event.</part25>
+        <part13>Hãy chuyển sang các phần khác của giao diện.</part13>
+        <part14>Ở góc trên bên trái, đôi lúc cảnh báo sẽ xuất hiện, thông báo cho bạn về những cuộc khủng hoảng sắp xảy ra trong các lĩnh vực khác nhau của xã hội, quan hệ với các quốc gia khác, hoặc các chính trị gia, tùy theo tình hình. Nhấp vào biểu tượng cảnh báo sẽ mở phần liên quan đến khu vực có vấn đề.</part14>
+        <part15>Các chỉ số quốc gia chính nằm ở góc trên bên trái và bên phải của màn hình. Hầu hết các chỉ số trong trò chơi thay đổi vào ngày đầu tiên của mỗi tháng.</part15>
+        <!--
+            Ghi chú: DEFON được định nghĩa trong file gốc bị "ngược" (VD: Lẽ ra quan hệ giảm xuống thì DEFCON tăng, nhưng trong file gốc thì ngược lại). Đã tự sửa lại.
+        -->
+        <part16>{2}DEFCON - đây là thang đo chỉ mức độ sẵn sàng của quân đội Hoa Kỳ. Nó dao động từ 5 (sẵn sàng bình thường) đến 1 (sẵn sàng tối đa). Nếu quan hệ với Hoa Kỳ giảm xuống dưới 15, mức DEFCON giảm thêm một điểm. Nếu quan hệ với Hoa Kỳ tăng trên 100, mức DEFCON tăng thêm một điểm.</part16>
+        <part17>Các chỉ số tiếp theo là: {2}Quan hệ với Hoa Kỳ, {3}Quan hệ với Pháp, {4}Quan hệ với Trung Quốc. Đây là những quốc gia đối thủ chính đang cạnh tranh để giành ảnh hưởng ngoại giao. Sự suy giảm quan hệ với họ có thể kích hoạt một sự kiện khủng hoảng.</part17>
+        <part18>{2}Sự sẵn sàng về mặt quân sự – đây là chỉ số về sức mạnh của quân đội quốc gia. Nó có liên hệ với các cuộc chiến tranh, sự kiện và các hành động ngoại giao khác. Nếu chỉ số này giảm xuống dưới mức nhất định, nó có thể kích hoạt một sự kiện khủng hoảng.</part18>
+        <!--
+            Ghi chú: Trò chơi chưa thống nhất các thuật ngữ (VD: tình báo, an ninh). Cần xem xét sửa lại. #TODO.
+        -->
+        <part19>{2}Lòng trung thành của cơ quan tình báo – đây là chỉ số về sự trung thành của cơ quan tình báo quốc gia. Nó thường được sử dụng làm điều kiện cho một số hành động trong sự kiện, ngoại giao hoặc chính trị. Nếu chỉ số này giảm xuống dưới mức nhất định, nó sẽ dẫn đến sự bất mãn trong cơ quan tình báo và kích hoạt một sự kiện khủng hoảng.</part19>
+        <part20>{2}Vốn chính trị – đây là điểm quyền lực chính trị tích lũy. Là tài nguyên chính trong trò chơi, nó cần thiết để thực hiện các chính sách nội bộ và đối ngoại, ra quyết định, thay đổi học thuyết, bổ nhiệm bộ trưởng, tham gia vào các âm mưu và chọn lựa kết quả trong các sự kiện của trò chơi.</part20>
+        <part21>{2}Tổng điểm khoa học – đây là tổng của tất cả các loại điểm khoa học trong trò chơi. Có 4 loại điểm khoa học: {0}{3}Điểm quân sự{0}{4}Điểm vật lý{0}{5}Điểm điều khiển học{0}{6}Điểm dân sự. {0}Các đóng góp vào các khoản ngân sách khác nhau ảnh hưởng đến việc tích lũy điểm khoa học. Điểm khoa học được sử dụng để tiến hành nghiên cứu. Bạn có thể đọc thêm về nghiên cứu trong phần "Khoa học".</part21>
+        <!--
+            Ghi chú: Tự bổ sung thêm ví dụ về các "chủ thể". Vì trò chơi ban đầu xoay quanh Liên Xô, cho nên "subject" được nhắc đến ở đây sẽ là các nước cộng hòa của Liên Xô.
+        -->
+        <part22>{2}Dân số quốc gia – đây là chỉ số về dân số hiện tại của quốc gia. Nó được tổng hợp từ các chủ thể thuộc quốc gia (VD: Quốc gia chư hầu hoặc quốc gia thành viên). Nếu một chủ thể rời khỏi quốc gia, dân số sẽ giảm.</part22>
+        <part23>{2}Sức mạnh của phe đối lập cực đoan – đây là chỉ số về ảnh hưởng của các lực lượng và ý tưởng cực đoan nhất. Nó ảnh hưởng đến sự mất ổn định trong tình hình chính trị nội bộ của quốc gia. Khi chỉ số này vượt quá một mức nhất định, nó có thể kích hoạt một sự kiện khủng hoảng.</part23>
+
+        <!--
+            Ghi chú: Thống nhất thuật ngữ và dịch phần này lại. #TODO.
+        -->
+        <part24>{2}Cân đối ngân sách – đây là sự chênh lệch giữa thu nhập và chi tiêu. Nếu cân đối ngân sách là dương, số tiền này sẽ được thêm vào {3}Dự trữ. Ngược lại, tiền sẽ được lấy từ dự trữ. Nếu dự trữ bị cạn kiệt, bạn sẽ cần phải cắt giảm chi tiêu hoặc vay mượn từ bên ngoài.</part24>
+        <part25>{2}Dự trữ – dự trữ tài chính tích lũy. Nó được sử dụng như một điều kiện và chi phí cho hầu hết các hành động chính trị trong nước và đối ngoại. Nếu dự trữ giảm xuống dưới mức nhất định, nó có thể kích hoạt một sự kiện khủng hoảng.</part25>
 
         <!--
             Ghi chú: Phần này là nội dung hướng dẫn (phần 3).
@@ -569,13 +582,15 @@
 
     <!--
         Phần <scenesNames> chứa tên các giao diện với những nội dung cụ thể trong trò chơi (VD: Ngoại giao, Khoa học, Chính sách, ...).
+
+        Ghi chú: Doctrine (Học thuyết) hiện được dịch là Học thuyết/Chính sách để phù hợp với nội dung trong trò chơi. Có thể sẽ được chỉnh sửa sau này. #TODO.
     -->
     <scenesNames>
         <scene6>Ngoại giao</scene6>
         <scene12>Quyết định</scene12>
         <scene13>Ngân sách</scene13>
         <scene16>Số liệu thống kê</scene16>
-        <scene9>Chính sách</scene9>
+        <scene9>Học thuyết/Chính sách</scene9>
         <scene7>Khoa học</scene7>
         <scene14>Chính trị</scene14>
         <scene15>Đại hội Đảng</scene15>
