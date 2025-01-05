@@ -10,7 +10,7 @@ Truy cập trang chính thức của nhà phát triển tại: [nostal.games](ht
 
 Tải trò chơi trên Steam: [Crisis in the Kremlin: The Cold War](https://store.steampowered.com/app/1922740/Crisis_in_the_Kremlin_The_Cold_War/).
 
-Repo này chứa bản dịch tiếng Việt cho trò chơi, được thực hiện bởi nhóm dịch [XanclockTranslations](https://github.com/XanclockTranslations/) (gọi là nhóm dịch nhưng đang hoạt động bởi một mình [ichxorya](https://github.com/ichxorya)). Hiện tại, bản dịch đang được thực hiện cho phiên bản demo mới nhất (Demo v6.1).
+Repo này chứa bản dịch tiếng Việt cho trò chơi, được thực hiện bởi nhóm dịch [XanclockTranslations](https://github.com/XanclockTranslations/) (gọi là nhóm dịch nhưng đang hoạt động bởi một mình [ichxorya](https://github.com/ichxorya)). Hiện tại, bản dịch đang được thực hiện cho phiên bản demo mới nhất ([Demo v6.1](https://store.steampowered.com/news/app/1922740/view/523078230806103723?l=english)).
 
 ## Hướng dẫn sử dụng
 
