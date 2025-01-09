@@ -1,6 +1,6 @@
 # Lịch sử cập nhật bản dịch
 
-## v0.4 (ngày 2 tháng 1 năm 2025)
+## v0.4 (ngày 9 tháng 1 năm 2025)
 
 ### Sửa đổi
 

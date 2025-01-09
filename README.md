@@ -4,7 +4,7 @@
 
 Crisis in the Kremlin: The Cold War (tên gọi tắt CitK2, tạm dịch: Khủng hoảng ở Điện Kremlin: Chiến tranh Lạnh) là một trò chơi chiến lược có tính chất quản lý, nơi người chơi sẽ đảm nhận vai trò của người lãnh đạo Liên Xô (sắp tới có thể bổ sung cả các quốc gia khác) trong thời kỳ 1985 trở đi, trong bối cảnh Liên Xô và khối các nước XHCN đang trải qua giai đoạn khủng hoảng và suy thoái; với hi vọng người chơi sẽ giúp đất nước vượt qua khủng hoảng và tiến vào thời đại mới.
 
-Hiện tại (ngày 1 tháng 1 năm 2025), trò chơi đang được phát triển bởi Nostalgames (tên cũ là Kremlingames), với các phiên bản demo được chia sẻ miễn phí trên Steam. Dự kiến bản chính thức đầu tiên sẽ được phát hành vào ngày 5 tháng 2 năm 2025.
+Hiện tại (ngày 9 tháng 1 năm 2025), trò chơi đang được phát triển bởi Nostalgames (tên cũ là Kremlingames), với các phiên bản demo được chia sẻ miễn phí trên Steam. Dự kiến bản chính thức đầu tiên sẽ được phát hành vào ngày 5 tháng 2 năm 2025.
 
 Truy cập trang chính thức của nhà phát triển tại: [nostal.games](https://nostal.games/).
 
@@ -41,6 +41,6 @@ Repo này chứa bản dịch tiếng Việt cho trò chơi, được thực hi�
 
 1. Bản dịch này không phải bản dịch chính thức từ nhà phát triển trò chơi.
 
-2. Vì trò chơi có nội dung mang tính chính trị và lịch sử, cho nên có những nội dung sẽ mang quan điểm cá nhân của nhà phát triển. Nhóm dịch sẽ cố gắng dịch chính xác và trung lập nhất có thể, và hi vọng trò chơi sẽ không có các nội dung mang yếu tố "nhạy cảm" ở Việt Nam. Trong trường hợp phát hiện nội dung không phù hợp, nhóm dịch sẽ cân nhắc để đưa ra quyết định phù hợp.
+2. Vì trò chơi có nội dung mang tính chính trị và lịch sử, cho nên có những nội dung sẽ mang quan điểm cá nhân của nhà phát triển. Nhóm dịch sẽ cố gắng dịch chính xác và trung lập nhất có thể, và hi vọng trò chơi sẽ không có các nội dung mang yếu tố "nhạy cảm" ở Việt Nam. Bên cạnh đó, việc "bản địa hóa" hoặc thay đổi nội dung so với bản gốc để phù hợp hơn cũng có thể được thực hiện. Trong trường hợp phát hiện nội dung không phù hợp, nhóm dịch sẽ cân nhắc để đưa ra quyết định phù hợp.
 
 3. Bản dịch này được thực hiện hoàn toàn miễn phí, không có mục đích thương mại hay lợi nhuận. Hiện tại nhóm dịch chưa bổ sung giấy phép mã nguồn mở, nhưng trong tương lai (khi đã có giấy phép), mọi người đều có thể sử dụng, chỉnh sửa và phân phối bản dịch này theo các điều khoản của giấy phép.
