@@ -4,7 +4,7 @@
 
 Crisis in the Kremlin: The Cold War (tên gọi tắt CitK2, tạm dịch: Khủng hoảng ở Điện Kremlin: Chiến tranh Lạnh) là một trò chơi chiến lược có tính chất quản lý, nơi người chơi sẽ đảm nhận vai trò của người lãnh đạo Liên Xô (sắp tới có thể bổ sung cả các quốc gia khác) trong thời kỳ 1985 trở đi, trong bối cảnh Liên Xô và khối các nước XHCN đang trải qua giai đoạn khủng hoảng và suy thoái; với hi vọng người chơi sẽ giúp đất nước vượt qua khủng hoảng và tiến vào thời đại mới.
 
-Hiện tại (ngày 9 tháng 1 năm 2025), trò chơi đang được phát triển bởi Nostalgames (tên cũ là Kremlingames), với các phiên bản demo được chia sẻ miễn phí trên Steam. Dự kiến bản chính thức đầu tiên sẽ được phát hành vào ngày 5 tháng 2 năm 2025.
+Hiện tại (ngày 9 tháng 1 năm 2025), trò chơi đang được phát triển bởi Nostalgames (tên cũ là Kremlingames), với các phiên bản demo được chia sẻ miễn phí trên Steam. Dự kiến bản chính thức đầu tiên sẽ được phát hành vào ngày 28 tháng 4 năm 2025.
 
 Truy cập trang chính thức của nhà phát triển tại: [nostal.games](https://nostal.games/).
 
